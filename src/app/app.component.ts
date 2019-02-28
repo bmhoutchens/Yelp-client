@@ -29,7 +29,7 @@ export class AppComponent {
 
   ngOnInit() {}
   
-  sendFetch(input: string, price: number){
+  sendFetch(input: string, price: string){
     event.preventDefault();
     this.dinnerDone = false;
     this.transaction = "";
